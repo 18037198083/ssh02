@@ -20,7 +20,6 @@ public class LoginController implements HandlerInterceptor {
                   response.sendRedirect(basePath+"background/login.html");
                return false;
               }
-        System.out.println("--------");
         return true;
 
     }
